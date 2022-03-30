@@ -1,0 +1,52 @@
+
+
+Funcionalidade: Gerenciamento de Employees 
+
+
+
+Cenário: Listar employees cadastrados
+
+Dado que eu possua employees cadastrados
+Quando faço uma requisição get dos employees cadastrados
+Então devo receber a lista com todos os employees cadastrados
+
+
+
+Cenário: Listar employee por ID
+
+Dado que eu possua um employee cadastrado
+Quando faço uma requisição get por id válido 
+Então devo receber as informações referente aquele employee
+
+
+
+Cenário: Listar employee por ID inválido
+
+Dado que eu possua um employee cadastrado
+Quando faço uma requisição get por id inválido
+Então devo receber uma mensagem de employee inválido
+
+
+
+Cenário: Criar employee
+
+Dado eu insira as informações do employee
+Quando faço uma requisição post com os dados para cadastro
+Então o employee deve ser cadastrado com sucesso
+
+
+
+Cenário: Editar informações de employee via id
+
+Dado que eu tenha um employee cadastrado
+E acesso ao <id> do employee
+Quando faço uma requisição put para editar as informações
+Então o cadastro deve ser atualizado
+
+
+
+Cenário: Excluir employee via id
+
+Dado que eu tenha um employee cadastrado
+Quando faço uma requisição delete do employee via <id>
+Então o aquele employee deve ser deletado

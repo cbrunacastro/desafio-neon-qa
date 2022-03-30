@@ -1,0 +1,58 @@
+
+
+Funcionalidade: Cadastro de Cliente
+
+Como usuário do aplicativo Cadastro de Clientes
+Eu quero cadastrar clientes
+Para acessar os dados futuramente
+
+
+@Positivo
+Cenário: Cadastrar um Novo Cliente
+Dado que entro no aplicativo
+E clico no botão de opções
+E clico na opção Cadastrar Novo
+E insiro o nome
+Quando clico em Salvar
+Então deve aparecer uma mensagem de cadastro efetuado com sucesso
+E o cadastro do cliente deve ser exibido na tela inicial
+
+
+
+@Positivo
+Cenário: Cadastrar Novo Cliente no modo Completo
+Dado que entro no aplicativo
+E clico no botão de opções
+E clico na opção Cadastrar Novo
+Quando seleciono o modo completo do cadastro
+Então a tela deve ser atualizada para cadastro do cliente no modo completo
+
+
+
+@Negativo
+Cenário: Cadastrar um Novo Cliente sem o campo nome
+Dado que entro no aplicativo
+E clico no botão de opções
+E clico na opção Cadastrar Novo
+Quando clico no botão Salvar
+Então o cliente não deve ser salvo
+
+
+
+@Negativo
+Cenário: Excluir Cliente não cadastrado
+Dado que entro no aplicativo
+E clico no botão de opções
+E clico na opção Cadastrar Novo
+Quando clico no botão Excluir
+Então o aplicativo deve permanecer na tela do Cadastro de Clientes
+
+
+    
+@Positivo
+Cenário: Abrir lista de estados 
+Dado que entro no aplicativo
+E clico no botão de opções
+E clico na opção Cadastrar Novo
+Quando clico no campo Estado
+Então a lista de estados deve ser exibida
