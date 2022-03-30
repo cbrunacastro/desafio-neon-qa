@@ -1,6 +1,6 @@
 <div style="display:flex; align-items:center; justify-content: center; flex-direction: column; ">
     <h1> 👩‍💻 Desafio Neon 👨‍💻</h1>
-    <h6>Quality Assurance (QA</h6>
+    <h6>Quality Assurance (QA)</h6>
     <h3> ✌️ Bem vindo! </h3>
 
 </div>
