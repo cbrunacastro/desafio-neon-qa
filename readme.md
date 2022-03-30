@@ -12,10 +12,10 @@
 O objetivo do desafio é realizar 4 desafios: 
 </p>
 <p>
-- Desafio 01: Cenário Mobile
-- Desafio 02: Cenário Backend
-- Desafio 03: Automação Mobile
-- Desafio Extra (Opcional): Automação Backend.
+- Desafio 01: Cenário Mobile</br>
+- Desafio 02: Cenário Backend</br>
+- Desafio 03: Automação Mobile</br>
+- Desafio Extra (Opcional): Automação Backend.</br>
 </p>
 
 <h2> 🛠️  Pre Requisitos (Instalação)</h2>
